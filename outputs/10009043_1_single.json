@@ -1,0 +1,8 @@
+{
+  "Tolerances_General": "General tolerances for linear measures 0-20 20-200 200-2000 >2000 according ISO 4288 orientation and location based on ISO 1101",
+  "Welding_Designation": null,
+  "Weld_Finish": "Surface grind after welding",
+  "Post_Treatment": null,
+  "Material_Grade": "304",
+  "Notes": []
+}

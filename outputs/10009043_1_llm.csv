@@ -1,0 +1,4 @@
+PDF,Tolerances_General,Tol_0_20,Tol_20_200,Tol_200_2000,Tol_gt_2000,Welding_Designation,Weld_Finish,Post_Treatment,Material_Grade,Notes
+/Users/tessscholtus/projects/ales_llm_extractor/data/Elten/10009043_1/10009043_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101) Limits in mm for nominal sizes in mm,,,,,Weld all corners,Surface grind after welding,['Bead blasted'],"['304', 'A2']",
+/Users/tessscholtus/projects/ales_llm_extractor/data/Elten/10009043_1/10009081_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,,,Bead blasted,304,
+/Users/tessscholtus/projects/ales_llm_extractor/data/Elten/10009043_1/MD-21-04683_1.pdf,ruwheden volgens NEN 3632 | plaats- en vormtol. volgens NEN 1101 toegestane afwijking,,,,,,seegerring-groeven scherp plaat- en lasconstr. +0.5 +1.0 +2.0 +4.0,,A2 Round Bar,
