@@ -1,0 +1,17 @@
+PDF_Filename,Drawing_Number,Revision,Surface_Roughness_Standard,Surface_Roughness_Parameter,Surface_Roughness_Value,Surface_Roughness_Unit,Geometrical_Tolerancing_Standard,Geometrical_Tolerancing_Scope,Dimensional_Tolerancing_Standard,Dimensional_Tolerancing_Scope,Break_Sharp_Edges,Retaining_Ring_Grooves_Sharp,Welding_Notes,Welding_Designation,Weld_Finish,Post_Treatment,Material_Grade,Tol_General_0-20,Tol_General_20-200,Tol_General_200-2000,Tol_General_>2000,Tol_Machining_0-20,Tol_Machining_20-200,Tol_Machining_200-2000,Tol_Machining_>2000,Tol_Welded_0-20,Tol_Welded_20-200,Tol_Welded_200-2000,Tol_Welded_>2000,Notes
+10014675_2.pdf,revision,2,,,,,,,,,True,True,,,Make these surfaces flat after welding,,S235,+0.2,+0.5,+1.0,+2.0,,,,,,,,,"General agreements for welded assemblies unless otherwise indicated: Lift frame Coating Dynamic | 1. Tube frames + end plates welded on all sides | 2. Sheet metal interrupted welding (weld 50 [mm], 100 [mm] free) | 3. Keep holes free of welds | 4. A height = thinnest sheet thickness / 2 + 1 = [mm]"
+10014689_2.pdf,revision,2,,,,,,,,,True,True,,,,,S235,+0.2,+0.5,+1.0,+2.0,,,,,,,,,
+10014690_2.pdf,revision,disclosure,,,,,,,,,True,True,,,,,S235,+0.2,+0.5,+1.0,+2.0,,,,,,,,,
+10017181_2.pdf,revision,disclosure,,,,,,,,,True,True,,,,,S235,,,,,,,,,,,,,
+10017182_2.pdf,revision,disclosure,,,,,,,,,True,True,,,,,S235,+0.2,+0.5,+1.0,+2.0,,,,,,,,,
+10041870_1.pdf,,,,,,,,,,,False,False,,,,,,,,,,,,,,,,,,
+MD-06-2-000211_4.pdf,is,isie,,,,,,,,,True,True,,,surface grind after welding,,Steel,+0.2,+0.5,+1.0,+2.0,,,,,,,,,ruwheden volgens NEN 3632 | plaats- en vormtol. volgens NEN 1101
+MD-07-2-001243_1.pdf,is,isie,,,,,,,,,True,True,,,surface grind after welding,,S235,+0.2,+0.5,+1.0,+2.0,,,,,,,,,scherpe kanten breken | seegerring-groeven scherp | plaats- en vormtol. volgens NEN 1101 | ruwheden volgens NEN 3632
+MD-11-00617_1.pdf,is,isie,,,,,,,,,True,True,,,surface grind after welding,,304,+0.2,+0.5,+1.0,+2.0,,,,,,,,,ruwheden volgens NEN 3632 | plaats- en vormtol. volgens NEN 1101
+MD-14-02044_5.pdf,revision,disclosure,,,,,,,,,True,True,,,,,S235,+0.2,+0.5,+1.0,+2.0,,,,,,,,,
+MD-19-03108_1.pdf,is,isie,,,,,,,,,True,True,,,,,S235,,,,,,,,,,,,,scherpe kanten breken | versp. bewerkingen | seegerring-groeven scherp | plaat- en lasconstr.
+MD-19-03327_1.pdf,is,isie,,,,,,,,,True,True,,,,,S235,+0.2,+0.5,+1.0,+2.0,,,,,,,,,scherpe kanten breken | seegerring-groeven scherp
+MD-19-03328_1.pdf,is,isie,,,,,,,,,True,True,,,"scherpe kanten breken, versp. bewerkingen",,S235,+0.2,+0.5,+1.0,+2.0,,,,,,,,,ruwheden volgens NEN 3632 | plaats- en vormtol. volgens NEN 1101
+MD-19-03329_1.pdf,is,isie,,,,,,,,,True,True,,,surface grind after welding,,S235,+0.2,+0.5,+1.0,+2.0,,,,,,,,,scherpe kanten breken | seegerring-groeven scherp
+MD-19-03464_1.pdf,is,isie,,,,,,,,,True,True,,,,,S235,,,,,,,,,,,,,scherpe kanten breken | seegerring-groeven scherp | versp. bewerkingen
+MD-19-03466_1.pdf,is,isie,,,,,,,,,True,True,,,surface grind after welding,,S235,,,,,,,,,,,,,scherpe kanten breken | seegerring-groeven scherp

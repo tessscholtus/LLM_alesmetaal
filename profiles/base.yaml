@@ -1,52 +1,116 @@
-# Base profiel (generiek, voor alle klanten)
+# === GENERIC BASE PROFILE (client-agnostic) ===
+schema:
+  keys:
+    - Material_Grade
+    - Surface_Roughness          # {standard, value, unit, parameter}
+    - Geometrical_Tolerancing    # {standard, scope}
+    - Dimensional_Tolerancing    # {standard, scope}
+    - Break_Sharp_Edges
+    - Retaining_Ring_Grooves_Sharp
+    - Welding_Notes              # [freeform weld instructions]
+    - Tolerances_General_Linear  # {unit, bands{0-20,20-200,200-2000,>2000}}
+    - Tolerances_Machining
+    - Tolerances_Welded_Sheetmetal
+    - Welding_Designation
+    - Weld_Finish
+    - Post_Treatment
+    - Notes
+    - Drawing_Number
+    - Revision
+
+vocabulary:
+  finishes:
+    whitelist:
+      - bead blasted
+      - electro galvanized
+      - hot-dip galvanized
+      - zinc plated
+      - powder coated
+      - anodized
+      - painted
+
+  welding_freeform:
+    - weld all corners
+    - surface grind after welding
+    - continuous weld
+    - interrupted welding
+    - stitch weld
+    - weld length
+    - smooth finish
+    - outside of frame weldment must have a smooth finish
+
+  booleans:
+    break_sharp_edges:
+      - break sharp edges
+      - scherpe kanten breken
+      - remove sharp edges
+      - deburr edges
+    retain_ring_grooves_sharp:
+      - retaining ring grooves sharp
+      - seegerring-groeven scherp
+      - keep ring grooves sharp
+
+  iso_nen_patterns:
+    roughness:
+      - "ISO\\s*4288"
+      - "NEN\\s*3632"
+      - "(?i)\\b(Ra|Rz)\\s*\\d+(?:[\\.,]\\d+)?\\s*(?:µm|um|μm)\\b"
+    gdandt:
+      - "ISO\\s*1101"
+      - "NEN\\s*1101"
+    dimensional:
+      - "ISO\\s*14405(?:-\\d+)?"
+      - "NEN\\s*2731"
+      - "NEN\\s*2733"
+      - "NEN\\s*2737"
+
+  tolerance_headers:
+    general_linear:
+      - general tolerances for linear measures
+      - linear tolerances
+      - limits in mm for nominal sizes in mm
+      - toegestane afwijkingen
+      - general linear
+    machining:
+      - machining limits
+      - machined limits
+      - machined tolerances
+      - bewerkingsmaten
+      - machining
+    welded_sheet:
+      - welded and sheetmetal limits
+      - sheet metal limits
+      - plaat- en lasconstruct
+      - welded limits
+      - welded & sheetmetal
+
+  bands:
+    canonical: ["0-20","20-200","200-2000",">2000"]
+    patterns:
+      zero_to_20: ["0\\s*[–—-]\\s*20", "0\\s*to\\s*20", "0\\s*[-]\\s*20"]
+      twenty_to_200: ["20\\s*[–—-]\\s*200", "20\\s*to\\s*200"]
+      twohundred_to_2000: ["200\\s*[–—-]\\s*2000", "200\\s*to\\s*2000"]
+      over_2000: [">\\s*2000", "≥\\s*2000", "(?i)over\\s*2000"]
+
+materials:
+  steel:
+    - "\\bS\\s*\\d{3}\\b"        # S235/S275/S355…
+    - "\\b1\\.\\d{4}\\b"         # 1.0038
+    - "\\bQ\\d{3}\\b"            # Q235/Q345
+  stainless:
+    - "\\b304L?\\b"
+    - "\\b316L?\\b"
+    - "\\bA2\\b"
+    - "\\bA4\\b"
+  aluminium:
+    - "EN\\s*AW-\\d+"
+    - "\\bAlMg\\d\\b"
+
+ocr_normalization:
+  dash_variants: ["–","—","−"]
+  iso_typos: ["lSO","lso"]
+  decimal_comma: true
+  plusminus_variants: ["±","+/-","+∕-","± "]
+
 layout:
-  title_block: "rechtsonder"
-
-labels:
-  material: ["Materiaal","Material","Material grade","Grade","Quality","Qualiteit","Mat."]
-  finish: ["Finish","Afwerking","Surface treatment","Surface finish","Post-treatment","Coating"]
-  weld_finish: ["Weld finish","Lasafwerking","Surface grind after welding","flush ground","dressed","smoothed","machined"]
-  welding_designation: ["Weld","Welding","Las","Welding designation","EN ISO 2553","DIN EN ISO 2553"]
-  tolerances: ["Toleranties","Tolerance","Tolerances","General tolerance","Afwijking","tol.","±"]
-  notes: ["Notes","Remarks","Opmerkingen"]
-
-whitelists:
-  material_grade:
-    - "St.37"   # klassiek staal
-    - "S235"    # S-series
-    - "S275"
-    - "S355"
-    - "S460"
-    - "1.0038"  # EN nummers
-    - "1.0570"
-    - "304"     # RVS/AISI
-    - "316"
-    - "316L"
-    - "1.4301"
-    - "1.4404"
-    - "AlMg3"   # Aluminium
-    - "EN AW-5754"
-    - "EN AW-6082"
-    - "DX51D"   # Overig
-    - "Q235"
-    - "Q345"
-  post_treatment:
-    - "Bead blasted"
-    - "Electro galvanized"
-    - "Hot-dip galvanized"
-    - "Zinc plated"
-    - "Powder coated"
-    - "Powder coating"
-    - "Anodized"
-    - "Painted"
-  weld_finish:
-    - "Surface grind after welding"
-    - "flush ground"
-    - "dressed"
-    - "smoothed"
-    - "machined"
-
-blacklist:
-  not_material: ["A0","A1","A2","A3","A4","A5","Sheet size","Scale","Bladnr","Rev","Revision"]
-
-notes_cues: ["Notes","Remarks","Opmerkingen"]
+  title_block: "lower-right (typical, but not guaranteed)"

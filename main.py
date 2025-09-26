@@ -1,4 +1,4 @@
-# main.py — OCR -> Gemini -> JSON
+# main.py
 import sys, json
 from pathlib import Path
 from loguru import logger
@@ -7,7 +7,6 @@ from config import settings
 from src.ocr_utils import extract_text_from_pdf_robust
 from src.llm_extractor import extract_fields_with_llm
 
-# Log naar outputs/process.log
 logger.add(settings.OUTPUT_DIR / "process.log", rotation="500 MB", level=settings.LOG_LEVEL)
 
 def process_single_pdf(pdf_path: Path):
@@ -22,7 +21,7 @@ def process_single_pdf(pdf_path: Path):
     return data
 
 if __name__ == "__main__":
-    # Pas dit pad aan indien je een andere PDF wilt testen
+    # Pas aan naar jouw testbestand
     test_pdf = Path("/Users/tessscholtus/Elten_data/MD-22-07091_2/MD-22-07091_2.pdf")
     if not test_pdf.exists():
         logger.error(f"Bestand niet gevonden: {test_pdf}")

@@ -1,27 +1,29 @@
-# config.py — minimal, no pydantic needed
+# config.py
 import os
 from pathlib import Path
+from pydantic import BaseModel, Field
 from dotenv import load_dotenv
 
-# Laad .env indien aanwezig
-load_dotenv()
+load_dotenv()  # leest .env als die er is
 
-class Settings:
-    def __init__(self):
-        # Paden
-        self.PROJECT_ROOT = Path(__file__).resolve().parent
-        self.OUTPUT_DIR   = Path(os.getenv("OUTPUT_DIR", "outputs"))
-        self.ELTEN_DATA_DIR = Path(os.getenv("ELTEN_DATA_DIR", "data/Elten"))
+class Settings(BaseModel):
+    PROJECT_ROOT: Path = Field(default_factory=lambda: Path(__file__).resolve().parent)
+    OUTPUT_DIR: Path = Field(default_factory=lambda: Path(os.getenv("OUTPUT_DIR", "outputs")))
 
-        # Logging
-        self.LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
+    # Google AI Studio (Gemini)
+    GOOGLE_API_KEY: str = Field(default_factory=lambda: os.getenv("GOOGLE_API_KEY", ""))
+    GEMINI_MODEL: str = Field(default_factory=lambda: os.getenv("GEMINI_MODEL", "gemini-1.5-pro"))
 
-        # Google AI (Gemini)
-        self.GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")
-        self.GEMINI_MODEL   = os.getenv("GEMINI_MODEL", "gemini-1.5-pro")
+    # Data-locatie (optioneel, voor later batchen)
+    ELTEN_DATA_DIR: Path = Field(default_factory=lambda: Path(os.getenv("ELTEN_DATA_DIR", "data/Elten")))
 
-        # Zorg dat output-map bestaat
+    LOG_LEVEL: str = Field(default_factory=lambda: os.getenv("LOG_LEVEL", "INFO"))
+
+    def ensure_dirs(self) -> None:
         self.OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# Dit is wat andere modules importeren: from config import settings
 settings = Settings()
+settings.ensure_dirs()
+
+if not settings.GOOGLE_API_KEY:
+    print("[config] Waarschuwing: GOOGLE_API_KEY ontbreekt (zet 'm in .env of export).")

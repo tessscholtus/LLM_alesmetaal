@@ -1,0 +1,38 @@
+# === ELTEN-SPECIFIC OVERLAY ===
+layout:
+  title_block_position: "below"
+  likely_sections:
+    - title block
+    - notes panel
+    - tolerance table
+
+vocabulary:
+  welding_freeform:
+    - weld all corners
+    - surface grind after welding
+    - outside of frame weldment must have a smooth finish
+    - smooth finish
+
+  tolerance_headers:
+    general_linear:
+      - General tolerances for linear measures
+      - Limits in mm for nominal sizes in mm
+    machining:
+      - Machining limits
+    welded_sheet:
+      - Welded and sheetmetal limits
+
+  finishes:
+    whitelist:
+      - bead blasted
+      - electro galvanized
+      - hot-dip galvanized
+      - zinc plated
+      - powder coated
+      - anodized
+      - painted
+
+notes_aliases:
+  - Notes
+  - Remarks
+  - Opmerkingen

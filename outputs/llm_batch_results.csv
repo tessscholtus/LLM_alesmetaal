@@ -1,0 +1,111 @@
+PDF,Tolerances_General,Tol_0_20,Tol_20_200,Tol_200_2000,Tol_gt_2000,Welding_Designation,Weld_Finish,Post_Treatment,Material_Grade,Notes
+/Users/tessscholtus/Elten_data/10009043_1/10009043_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101) Limits in mm for nominal sizes in mm,,,,,Weld all corners,Surface grind after welding,Bead blasted,304,
+/Users/tessscholtus/Elten_data/10009043_1/10009081_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,,,Bead blasted,304,
+/Users/tessscholtus/Elten_data/10009043_1/MD-21-04683_1.pdf,"ruwheden volgens NEN 3632 toegestane afwijking niet getolereerde maten, scherpe kanten breken, maattoleranties volgens NEN 2731 ® versp. bewerkingen, seegerring-groeven scherp plaat- en lasconstr.",,,,,,,,,
+/Users/tessscholtus/Elten_data/10014675_2/10014675_2.pdf,"General tolerances for linear measures according to ISO 1101, tolerances of form, orientation and location based on ISO 101, Dimensional tolerancing, Machining limits",,,,,"Weld 50 [mm], 100 [mm] free",flush ground,['Coating'],"S235, S235, S235",Keep holes free of welds | A height = thinnest sheet thickness / 2 + 1 = [mm]
+/Users/tessscholtus/Elten_data/10014675_2/10014689_2.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10014675_2/10014690_2.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10014675_2/10017181_2.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10014675_2/10017182_2.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,Welded and sheetmetal limits according ISO 14405,"Break sharp edges, retaining ring grooves sharp",,S235,
+/Users/tessscholtus/Elten_data/10014675_2/10041870_1.pdf,±0.5,,,,,EN ISO 2553,flush ground,Bead blasted,S235,
+/Users/tessscholtus/Elten_data/10014675_2/MD-06-2-000211_4.pdf,"scherpe kanten breken, maattoleranties volgens NEN 2731 ® versp. bewerkingen +02 +0.5 +1.0 +2.0
+seegerring-groeven scherp plaat- en lasconstr. +0.5 +1.0 +2.0 +4.0",,,,,,,,St.37,
+/Users/tessscholtus/Elten_data/10014675_2/MD-07-2-001243_1.pdf,"ruwheden volgens NEN 3632 toegestane afwijking niet getolereerde maten
+scherpe kanten breken, maattoleranties volgens NEN 2731 ® versp. bewerkingen
+seegerring-groeven scherp plaat- en lasconstr.",,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10014675_2/MD-11-00617_1.pdf,"ruwheden volgens NEN 3632 toegestane afwijking niet getolereerde maten
+scherpe kanten breken, maattoleranties volgens NEN 2731 ® versp. bewerkingen
+seegerring-groeven scherp plaat- en lasconstr.",,,,,,,,304,
+/Users/tessscholtus/Elten_data/10014675_2/MD-14-02044_5.pdf,"according ISO 4288 orientation and location based on ISO 1101} Limits in mm for nominal sizes in mm Break sharp edges, Dimensional tolerancing Machining limits",,,,,,,None,S235,
+/Users/tessscholtus/Elten_data/10014675_2/MD-19-03108_1.pdf,"getolereerde maten
+scherpe kanten breken, maattoleranties volgens NEN 2731 © versp. bewerkingen",,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10014675_2/MD-19-03327_1.pdf,"plaats- en vormtol. volgens NEN 1101 toegestane afwijking niet getolereerde maten
+scherpe kanten breken, maattoleranties volgens NEN 2731",,,,,,seegerring-groeven scherp plaat- en lasconstr.,,S235,
+/Users/tessscholtus/Elten_data/10014675_2/MD-19-03328_1.pdf,"ruwheden volgens NEN 3632 toegestane afwijking niet getolereerde maten
+scherpe kanten breken, maattoleranties volgens NEN 2731 ® versp. bewerkingen",,,,,,seegerring-groeven scherp plaat- en lasconstr.,,S235,
+/Users/tessscholtus/Elten_data/10014675_2/MD-19-03329_1.pdf,"ruwheden volgens NEN 3632 toegestane afwijking niet getolereerde maten
+scherpe kanten breken, maattoleranties volgens NEN 2731 ® versp. bewerkingen
+seegerring-groeven scherp plaat- en lasconstr.",,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10014675_2/MD-19-03464_1.pdf,plaats- en vormtol. volgens NEN 1101 toegestane afwijking niet getolereerde maten,,,,,,scherp plaat- en lasconstr.,,S235,
+/Users/tessscholtus/Elten_data/10014675_2/MD-19-03466_1.pdf,"ruwheden volgens NEN 3632 | plaats- en vormtol. volgens NEN 1101 toegestane afwijking niet getolereerde maten scherpe kanten breken, maattoleranties volgens NEN 2731",,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10015088_3/10015086_1.pdf,according ISO 4288 orientation and location based on ISO 1101,,,,,,"Break sharp edges, Dimensional tolerancing Machining limits",,S235,
+/Users/tessscholtus/Elten_data/10015088_3/10015087_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,Welded and sheetmetal limits,"Break sharp edges, Dimensional tolerancing, Machining limits, retaining ring grooves sharp according to ISO 14405",,S235,
+/Users/tessscholtus/Elten_data/10015088_3/10015088_3.pdf,,,,,,,,,,
+/Users/tessscholtus/Elten_data/10015088_3/10017233_1.pdf,"according ISO 4288 orientation and location based on ISO 1101) Limits in mm for nominal sizes in mm
+Break sharp edges, Dimensional tolerancing Machining limits",,,,,,,None,S235,
+/Users/tessscholtus/Elten_data/10015088_3/10017234_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,,,None,S235,
+/Users/tessscholtus/Elten_data/10015088_3/10017235_2.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101) Limits in mm for nominal sizes in mm,,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10015088_3/10017236_2.pdf,"General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101) Limits in mm for nominal sizes in mm Break sharp edges, Dimensional tolerancing Machining limits",,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10015088_3/10020335_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10015088_3/MD-19-04332_1.pdf,"ruwheden volgens NEN 3632 toegestane afwijking niet getolereerde maten scherpe kanten breken, maattoleranties volgens NEN 2731 ® versp. bewerkingen",,,,,,seegerring-groeven scherp plaat- en lasconstr.,,S235,
+/Users/tessscholtus/Elten_data/10015088_3/MD-19-04343_2.pdf,"ruwheden volgens NEN 3632 toegestane afwijking niet getolereerde maten
+scherpe kanten breken, maattoleranties volgens NEN 2731 ® versp. bewerkingen
+seegerring-groeven scherp plaat- en lasconstr.",,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10015088_3/MD-20-07109_1.pdf,"ruwheden volgens NEN 3632 toegestane afwijking niet getolereerde maten scherpe kanten breken, maattoleranties volgens NEN 2731 ® versp. bewerkingen seegerring-groeven scherp plaat- en lasconstr.",,,,,,,,St3/,
+/Users/tessscholtus/Elten_data/10015088_3/MD-20-07126_1.pdf,"ruwheden volgens NEN 3632 toegestane afwijking | scherpe kanten breken, maattoleranties volgens NEN 2731 | seegerring-groeven scherp plaat- en lasconstr.",,,,,,,,St3/,
+/Users/tessscholtus/Elten_data/10015088_3/MD-20-07137_1.pdf,"ruwheden volgens NEN 3632 toegestane afwijking niet getolereerde maten
+scherpe kanten breken, maattoleranties volgens NEN 2731 ® versp. bewerkingen
+seegerring-groeven scherp plaat- en lasconstr.",,,,,,,,St3/,
+/Users/tessscholtus/Elten_data/10015088_3/MD-22-08802_2.pdf,"ruwheden volgens NEN 3632 | plaats- en vormtol. volgens NEN 1101 toegestane afwijking niet getolereerde maten | scherpe kanten breken, maattoleranties volgens NEN 2731",,,,,,seegerring-groeven scherp plaat- en lasconstr.,,S235,
+/Users/tessscholtus/Elten_data/10015088_3/MD-22-08803_2.pdf,maattoleranties volgens NEN 2731,,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10015088_3/MD-22-08804_1.pdf,"ruwheden volgens NEN 3632 | plaats- en vormtol. volgens NEN 1101 toegestane afwijking niel 0-20 20-200 200-2000 >2000
+getolereerde maten
+scherpe kanten breken, maattoleranties volgens NEN 2731 © versp. bewerkingen",,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10015088_3/MD-22-08805_1.pdf,"ruwheden volgens NEN 3632 | plaats- en vormtol. volgens NEN 1101 toegestane afwijking niel 0-20 20-200 200-2000 >2000
+scherpe kanten breken, maattoleranties volgens NEN 2731",,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10015088_3/MD-22-08812_1.pdf,"plaats- en vormtol. volgens NEN 1101 toegestane afwijking niet getolereerde maten scherpe kanten breken, maattoleranties volgens NEN 2731",,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10015088_3/MD-22-08992_1.pdf,"plaats- en vormtol. volgens NEN 1101 toegestane afwijking niet getolereerde maten; scherpe kanten breken, maattoleranties volgens NEN 2731; versp. bewerkingen",,,,,,seegerring-groeven scherp plaat- en lasconstr.,,S235,
+/Users/tessscholtus/Elten_data/10015088_3/md-22-08811_2-am.pdf,±0.5,,,,,EN ISO 2553,flush ground,Powder coated,S235JR,
+/Users/tessscholtus/Elten_data/10016953_3/10016951_1.pdf,"General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101) Limits in mm for nominal sizes in mm Break sharp edges, Dimensional tolerancing Machining limits",,,,,,,None,S235,
+/Users/tessscholtus/Elten_data/10016953_3/10016952_2.pdf,General tolerances for linear measures 0-20 20-200 200-2000 +2000 according ISO 4288 orientation and location based on ISO 1101,,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10016953_3/10016953_3.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,,,Coating,S235,
+/Users/tessscholtus/Elten_data/10017067_1/10014521_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,,"Break sharp edges, Dimensional tolerancing Machining limits retaining ring grooves sharp according to ISO 14405 Welded and sheetmetal limits",,S235,
+/Users/tessscholtus/Elten_data/10017067_1/10017066_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,Welded and sheetmetal limits,"Break sharp edges, retaining ring grooves sharp according to ISO 14405",,S235,
+/Users/tessscholtus/Elten_data/10017067_1/10017067_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101) Limits in mm for nominal sizes in mm,,,,,,,,,
+/Users/tessscholtus/Elten_data/10017067_1/10017103_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,Welded and sheetmetal limits according to ISO 14405,"Break sharp edges, retaining ring grooves sharp",,S235,
+/Users/tessscholtus/Elten_data/10017067_1/MD-18-06679_1.pdf,"ruwheden volgens NEN 3632 toegestane afwijking niet getolereerde maten, scherpe kanten breken, maattoleranties volgens NEN 2731, versp. bewerkingen, seegerring-groeven scherp plaat- en lasconstr.",,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10035168_1/10015086_1.pdf,"according ISO 4288 orientation and location based on ISO 1101} Limits in mm for nominal sizes in mm Break sharp edges, Dimensional tolerancing Machining limits",,,,,Welded and sheetmetal limits,retaining ring grooves sharp according to ISO 14405,,S235,
+/Users/tessscholtus/Elten_data/10035168_1/10015087_1.pdf,"General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101, Break sharp edges, Dimensional tolerancing Machining limits, retaining ring grooves sharp according to ISO 14405 Welded and sheetmetal limits",,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10035168_1/10020335_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,,Welded,,S235,
+/Users/tessscholtus/Elten_data/10035168_1/10035164_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101) Limits in mm for nominal sizes in mm,,,,,,,None,S235,
+/Users/tessscholtus/Elten_data/10035168_1/10035166_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10035168_1/10035167_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101),,,,,,,None,S235,
+/Users/tessscholtus/Elten_data/10035168_1/10035168_1.pdf,General tolerances for linear measures 0-20 20-200 200-2000 =2000 according ISO 4288 orientation and location based on ISO 1101] Limits in mm for nominal sizes in mm retaining ring grooves sharp according to ISO 14405 Welded and sheetmetal limits,,,,,,,Coating Static,S235,
+/Users/tessscholtus/Elten_data/10035168_1/10035170_1.pdf,"General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101, Break sharp edges, Dimensional tolerancing Machining limits",,,,,,,None,S235,
+/Users/tessscholtus/Elten_data/10035168_1/MD-19-04332_1.pdf,"ruwheden volgens NEN 3632 toegestane afwijking niet getolereerde maten
+scherpe kanten breken, maattoleranties volgens NEN 2731 ® versp. bewerkingen
+seegerring-groeven scherp plaat- en lasconstr.",,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10035168_1/MD-19-04343_2.pdf,"ruwheden volgens NEN 3632 toegestane afwijking niet getolereerde maten
+scherpe kanten breken, maattoleranties volgens NEN 2731 ® versp. bewerkingen
+seegerring-groeven scherp plaat- en lasconstr.",,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10035168_1/MD-20-07109_1.pdf,"ruwheden volgens NEN 3632 toegestane afwijking niet getolereerde maten
+scherpe kanten breken, maattoleranties volgens NEN 2731 ® versp. bewerkingen",,,,,,seegerring-groeven scherp plaat- en lasconstr. +0.5 +1.0 +2.0 +4.0,,St3/,
+/Users/tessscholtus/Elten_data/10035168_1/MD-20-07126_1.pdf,"ruwheden volgens NEN 3632 toegestane afwijking niet getolereerde maten, scherpe kanten breken, maattoleranties volgens NEN 2731 ® versp. bewerkingen, seegerring-groeven scherp plaat- en lasconstr.",,,,,,,,St3,
+/Users/tessscholtus/Elten_data/10035168_1/MD-20-07137_1.pdf,"ruwheden volgens NEN 3632 toegestane afwijking niet getolereerde maten
+scherpe kanten breken, maattoleranties volgens NEN 2731 ® versp. bewerkingen
+seegerring-groeven scherp plaat- en lasconstr.",,,,,,,,St3/,
+/Users/tessscholtus/Elten_data/10035168_1/MD-22-08802_1.pdf,"plaats- en vormtol. volgens NEN 1101 toegestane afwijking niet getolereerde maten; scherpe kanten breken, maattoleranties volgens NEN 2731",,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10035168_1/MD-22-08803_1.pdf,"ruwheden volgens NEN 3632 | plaats- en vormtol. volgens NEN 1101 toegestane afwijking niet getolereerde maten
+scherpe kanten breken, maattoleranties volgens NEN 2731 © versp. bewerkingen",,,,,,seegerring-groeven scherp plaat- en lasconstr.,,S235,
+/Users/tessscholtus/Elten_data/10035168_1/MD-22-08804_1.pdf,ruwheden volgens NEN 3632 | plaats- en vormtol. volgens NEN 1101 toegestane afwijking,,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10035168_1/MD-22-08805_1.pdf,"ruwheden volgens NEN 3632 | plaats- en vormtol. volgens NEN 1101 toegestane afwijking niel 0-20 20-200 200-2000 >2000
+scherpe kanten breken, maattoleranties volgens NEN 2731 © versp. bewerkingen 20.2 20.5 11.0 +2.0
+seegerring-groeven scherp plaat- en lasconstr. +0.5 +1.0 +2.0 +4.0",,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10035168_1/MD-22-08811_2.pdf,"ruwheden volgens NEN 3632 | plaats- en vormtol. volgens NEN 1101 toegestane afwijking niet getolereerde maten | scherpe kanten breken, maattoleranties volgens NEN 2731",,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10035168_1/MD-22-08812_1.pdf,"plaats- en vormtol. volgens NEN 1101 toegestane afwijking niet getolereerde maten scherpe kanten breken, maattoleranties volgens NEN 2731",,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10035168_1/MD-22-08992_1.pdf,"plaats- en vormtol. volgens NEN 1101 toegestane afwijking niet getolereerde maten
+scherpe kanten breken, maattoleranties volgens NEN 2731",,,,,,seegerring-groeven scherp plaat- en lasconstr.,,S235,
+/Users/tessscholtus/Elten_data/10042173_2/10042173_2.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,DIN 976-1,,Bead blasted,Stainless Steel,
+/Users/tessscholtus/Elten_data/10042173_2/10042236_1.pdf,"ruwheden volgens NEN 3632 toegestane afwijking niet getolereerde maten, scherpe kanten breken, maattoleranties volgens NEN 2731 ® versp. bewerkingen, seegerring-groeven scherp plaat- en lasconstr.",,,,,,,,304,
+/Users/tessscholtus/Elten_data/10042173_2/MD-08-2-004830_1.pdf,"plaats- en vormtol. volgens NEN 1101 toegestane afwijking niet getolereerde maten, scherpe kanten breken, maattoleranties volgens NEN 2731",,,,,,seegerring-groeven scherp plaat- en lasconstr.,,Stainless Steel,
+/Users/tessscholtus/Elten_data/10042750_1/10042750_1.pdf,General tolerances for linear measures,,,,,Weld all corners,Grind outside surface,['Bead blasted'],304,
+/Users/tessscholtus/Elten_data/10042750_1/10042751_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,,,,304,
+/Users/tessscholtus/Elten_data/10042750_1/10047128_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,,,,304,
+/Users/tessscholtus/Elten_data/10042754_1/10042753_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,,,,EN,
+/Users/tessscholtus/Elten_data/10042754_1/10042754_1.pdf,General tolerances for linear measures,,,,,Weld ali corners. rind the outside Surface retain ring grooves sharp according to ISO 14405 Welded and sheetmetal limits,Surface grind after welding,['Bead blasted'],null,
+/Users/tessscholtus/Elten_data/10042754_1/10047127_1.pdf,according ISO 4288 orientation and location based on ISO 1101,,,,,ISO 14405,,,304,
+/Users/tessscholtus/Elten_data/10043562_1/10041412_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10043562_1/10041921_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,,,,S235,
+/Users/tessscholtus/Elten_data/10043562_1/10043562_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101) Limits in mm for nominal sizes in mm retaining ring grooves sharp according to ISO 14405 Welded and sheetmetal limits,,,,,Double weldable,,Coating Dynamic,S235,
+/Users/tessscholtus/Elten_data/10043562_1/10044231_1.pdf,General tolerances for linear measures according ISO 4288 orientation and location based on ISO 1101,,,,,,"Break sharp edges, retaining ring grooves sharp according to ISO 14405 Welded and sheetmetal limits",,S235,
+/Users/tessscholtus/Elten_data/10043562_1/MD-22-10636_1.pdf,maattoleranties volgens NEN 2731,,,,,,,,S235,
